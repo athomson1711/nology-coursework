@@ -3,7 +3,7 @@
     position: absolute;
     width: 300px;
     height: 200px;
-    left: 300px;
+    left: 0px;
 }
 .french-flag:active{
     opacity: 0;
@@ -38,7 +38,7 @@
 .german-flag{
 position: absolute;
 top: 250px;
-left: 300px;
+left: 0px;
 }
 
 .german-flag:hover{
@@ -67,7 +67,7 @@ left: 300px;
 .hung-flag{
 position: absolute;
 top: 250px;
-left: 300px;
+left: 0px;
 }
 
 .hung-red{
@@ -93,7 +93,7 @@ background-color: green;
     position: absolute;
     width: 300px;
     height: 200px;
-    left: 300px;
+    left: 0px;
 }
 .irish-green{
     background-color: green;
