@@ -1,0 +1,55 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Nav bar styling */
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    height: 50px;
+    width: 100%;
+    font-weight: bold;
+}
+
+
+/* stlying applied to the element with the "logo" id */
+nav #logo {
+    background-color: green;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* styling applied to the element with "nav-links" id*/
+nav #nav-links {
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+/* <a> elements styling */
+a{
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+/* pseudo class to change links styling */
+a:hover {
+    background-color: white;
+    color: black;
+    padding: 50px;
+}
