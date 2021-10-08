@@ -6,7 +6,6 @@
 
 /* Nav bar styling */
 
-
 nav {
     display: flex;
     flex-direction: row;
@@ -20,9 +19,8 @@ nav {
     font-weight: bold;
 }
 
-
 /* stlying applied to the element with the "logo" id */
-nav #logo {
+#logo {
     background-color: green;
     width: 20%;
     height: 100%;
@@ -32,7 +30,7 @@ nav #logo {
 }
 
 /* styling applied to the element with "nav-links" id*/
-nav #nav-links {
+#nav-links {
     display: flex;
     align-items: center;
     height: 50px;
@@ -43,13 +41,84 @@ a{
     font-size: 16px;
     text-decoration: none;
     color: white;
-    padding-right: 50px;
-    padding-left: 50px;
+    padding-right: 25px;
+    padding-left: 25px;
 }
 
 /* pseudo class to change links styling */
 a:hover {
     background-color: white;
     color: black;
-    padding: 50px;
+    padding: 25px;
+}
+/* Main Body Styling */
+
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#left-side { 
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#panel-1, #panel-2, #panel-3  {
+border: solid black;
+height: 100px;
+margin: 10px;
+display: flex;
+align-items: center;
+}
+
+#panel-1 {
+    justify-content: space-around;
+}
+
+#panel-2 {
+    justify-content: flex-end;
+}
+
+#panel-3 {
+    justify-content: flex-start;
+}
+
+#right-panel{
+    border: solid black;
+    margin: 10px;
+    width: 30%;
+}
+
+.box{
+    font-size: 12px;
+    font-weight: bold;
+    margin: 10px;
+    height: 75px;
+    width: 75px;
+    background-color: black;
+    color: white;
+}
+
+
+h4{
+font-weight:bold;
+padding: 5px;
+}
+
+p{
+font-size: 12px;
+padding: 5px;
+}
+
+ul {
+    margin-left: 50px;
+    font-size: 12px;
+}
+  
+li {
+    margin: 15px 0;
 }
